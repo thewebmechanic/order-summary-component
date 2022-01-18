@@ -16,7 +16,7 @@ body {
     @media only screen and (min-width: 440px) {
 
         background-image: url('images/pattern-background-desktop.svg');
-        background-repeat: no-repeat;
+        background-repeat: repeat-x;
         background-size: contain;
         background-position: top;
     }
