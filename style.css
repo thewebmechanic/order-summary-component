@@ -177,5 +177,6 @@ a.PlanChangeLink {
 
 .CancelOrderButton:hover {
   color: #1f2f56;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
