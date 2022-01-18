@@ -1,0 +1,181 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #e0e8ff;
+  background-image: url("images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 440px) {
+  body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
+}
+
+.CardContainer {
+  display: block;
+  margin-top: 10vh;
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  min-width: 290px;
+  -webkit-box-shadow: 0px 2px 70px 2px #a7adbe;
+          box-shadow: 0px 2px 70px 2px #a7adbe;
+  border-radius: 25px;
+}
+
+@media only screen and (min-width: 440px) {
+  .CardContainer {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.ImageContainer {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.HeroImage {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.ContentContainer {
+  background-color: white;
+  padding-top: 1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.CardTitle {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #1f2f56;
+}
+
+.CardDescription {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #7280a7;
+  text-align: center;
+}
+
+.PriceArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding: 1rem;
+  background-color: #f5f7ff;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 440px) {
+  .PriceArea {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+.PlanDetails {
+  display: block;
+}
+
+.PlanName {
+  margin: 0;
+  padding: 0;
+  color: #1f2f56;
+  font-size: 1rem;
+}
+
+.PlanPrice {
+  margin: 0;
+  padding: 0;
+  color: #7280a7;
+}
+
+a.PlanChangeLink {
+  color: #6051c4;
+}
+
+.PlanChangeLink:hover {
+  color: #7668ec;
+  text-decoration: none;
+}
+
+.PaymentArea {
+  display: block;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.PaymentButton {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #3829e0;
+  color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 14px #a7adbe;
+          box-shadow: 0px 5px 14px #a7adbe;
+}
+
+.PaymentButton:hover {
+  background-color: #7668ec;
+  cursor: pointer;
+}
+
+.CancelOrderButton {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  height: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #7280a7;
+  background-color: white;
+  border: none;
+}
+
+.CancelOrderButton:hover {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=style.css.map */
